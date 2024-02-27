@@ -37,6 +37,7 @@ public class DocuSignAccessToken {
     public static void main(String[] args) throws IOException{
                    
         String authorizationCode="eyJ0eXAiOiJNVCIsImFsZyI6IlJTMjU2Iiwia2lkIjoiNjgxODVmZjEtNGU1MS00Y2U5LWFmMWMtNjg5ODEyMjAzMzE3In0.AQoAAAABAAYABwAAKhDsyzLcSAgAALaWM8wy3EgCAOhSM8F_ljNMtBnriWXBbJEVAAEAAAAYAAEAAAAFAAAADQAkAAAAN2YwZDNhNzMtNzRhMy00YThkLTg5ZWUtNDQ3ZGJiMDA4MDE0IgAkAAAAN2YwZDNhNzMtNzRhMy00YThkLTg5ZWUtNDQ3ZGJiMDA4MDE0NwA7CsNm50bsT7qhjA-aC88KMACAro9dszLcSA.ASuwZnHHVeV5axD8TdgUvOxFmyBNOZqCfcJuwuF2AiBGadDcnPBp1gMlXtgCq2Xw-nQd4FB7IonbzPi4mLyEziWFKo4xb29lMIKIH7FioFxaiGxloqbp7sk75gsBV8MiEdf39MfDianmbyJjcI3C0djTGJQAITOWJaMxAIJxPcqfH1svpzrMbc5Xi0be4IRRcAV8KP1yApnYC1YzBsfj6f9lH9XiYhMicVtLRU0fbi53QzdOqTfV_eAyTaf-aFcpd-Nra7smUlhQRbnHEPTanI-xKbXBb1LHP-U1fFnr060M5RGXQ5UXfMsJTzks63qXQeo_VyHTN7H-28Vlknq9lw";
+        
         String accessToken=getAccessToken(authorizationCode);
         System.out.println("Access Token: " + accessToken);
         
